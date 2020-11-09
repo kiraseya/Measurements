@@ -6,7 +6,7 @@
 
 % load('ICT1_24_antpos2_doorsclosed.mat')
 % load('ICT1_58_antpos2_doorsclosed.mat')
-% x_pos = - x_pos + 45;
+% x_pos = - x_pos + 45; % centering for this data
 % y_pos = y_pos - 5.4;
 
 % ant pos 2
@@ -16,7 +16,7 @@
 
 %% Ant pos 1
 % load('ICT1_24_antpos1.mat')
-% x_pos = - x_pos + 44.4;
+% x_pos = - x_pos + 44.4; %centering for this data
 % y_pos = y_pos - 5.28;
 
 load('ICT1_58_antpos1.mat')
@@ -67,13 +67,13 @@ colorbar
 
 
 %% knowns for 2.4GHz
-% f = 2.44e9;
+% freq = 2.44e9;
 % %tx_power = 15;
 % tx_gain = 10 + 15;
 % all_loss = 5;
 
 %% knows for 5.8GHz
-f = 5.32e9;
+freq = 5.32e9;
 % tx_power = 10;
 tx_gain = 9.27 + 10;
 all_loss = 5;

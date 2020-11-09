@@ -1,9 +1,12 @@
-%% UG 1
+%%%% This file includes the antenna positions for all the different
+%%%% positions of the antennas and for the measurements on different floors
 
+%% UG 1
 %% UG 1 - ant pos 1
 % load('DMB_UG1_24_AntPos1.mat')
 % load('DMB_UG1_58_AntPos1.mat')
-% 
+ 
+% Antenna position 
 % ap_x = 43.5;
 % ap_y = - 16;
 % ap_z = 3.08;
@@ -13,6 +16,7 @@
 % load('DMB_UG1_24_AntPos2.mat')
 % load('DMB_UG1_58_AntPos2.mat')
 
+% Antenna Position
 % ap_x = 50;
 % ap_y = - 27;
 % ap_z = 5.3;
@@ -36,6 +40,8 @@ clear VarName2 VarName3 VarName7
 
 %% define wall segments
 %% UG 1 - ant pos 2
+% c_wall are the concrete walls, m_wall are the metal curtains
+
 % c_wall = [-28 -6.5 -4 -6.5;
 %           -28 -6.5 -28 -5 ;
 %           -28 -2 -28 5 ;
@@ -86,13 +92,13 @@ plot([column(i,1);column(i,3)],[column(i,2);column(i,4)],'k');
 end
 
 %% knowns for 2.4GHz
-% f = 2.4*10^9;
+% freq = 2.4*10^9;
 % tx_power = 15;
 % tx_gain = 10;
 % all_loss = 5;
 
 %% knows for 5.8GHz
-f = 5.8*10^9;
+freq = 5.8*10^9;
 tx_power = 10;
 tx_gain = 9.27;
 all_loss = 5;
