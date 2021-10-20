@@ -8,4 +8,6 @@ In the ict_cubes_data.m file the parameters for measurements and from the antenn
 can be found, and in ict_cubes_layout you can find all the walls defined.
 The antenna coordinates are defined for the different data sets. 
 
-For more information about where and how the measurements were taken, see [cite paper].
+For more information about where and how the measurements were taken, see 
+
+K. Preusser and A. Schmeink, "Robust Channel Modelling of 2.4 GHz and 5 GHz Indoor Measurements: Empirical, Ray Tracing and Artificial Neural Network Models," in IEEE Transactions on Antennas and Propagation, doi: 10.1109/TAP.2021.3098558.
